@@ -1,0 +1,16 @@
+
+
+.myVideo {
+    width: 400px;
+    height: 280px;
+}
+
+.videoPlayerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.remoteVideo {
+    width: 400px;
+    height: 280px;
+}

@@ -1,0 +1,89 @@
+
+.mainPage {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mainPage h4 {
+    color: grey;
+    font-family: cursive;
+    font-size: 12px;
+}
+
+.controlers {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.sub {
+    background-color: #3D56B2;
+    padding: 13px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px #000;
+}
+
+.inputFields {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.inputFields lable {
+    color: white;
+    margin: 4px;
+}
+
+.inputFields input {
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 1px 2px 1px #000;
+}
+
+.inputFields .yourId,.remoteId {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputFields .yourId,.remoteId lable {
+    text-align: start;
+}
+
+.controlButtons {
+    margin: 15px;
+}
+.controlButtons button {
+    margin: 9px;
+}
+
+.controlButtons button:nth-child(1) {
+    background-color: #519259;
+    padding: 3px 10px;
+    width: 15%;
+    color: #fff;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 1px 2px 2px #000;
+}
+
+.controlButtons button:nth-child(2) {
+    background-color: #DD4A48;
+    padding: 3px 10px;
+    width: 15%;
+    color: #fff;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 1px 2px 2px #000;
+}
+
+.controlButtons button:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+}
